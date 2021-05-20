@@ -1,0 +1,26 @@
+{
+  "name": "amazontaskcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "desktop": "cypress run --config userAgent=desktop,integrationFolder=cypress/integration/dektop"
+    ,"mobile" : "cypress run --config userAgent=mobile,integrationFolder=cypress/integration/mobile"
+    ,"chrome-desktop" : "cypress run --headless --browser chrome --config userAgent=desktop,integrationFolder=cypress/integration/desktop"
+    ,"chrome-mobile" : "cypress run --headless --browser chrome --config userAgent=mobile,integrationFolder=cypress/integration/mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diabsadi98/AmazonTaskCypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diabsadi98/AmazonTaskCypress/issues"
+  },
+  "homepage": "https://github.com/diabsadi98/AmazonTaskCypress#readme",
+  "dependencies": {
+    "cypress": "^7.3.0"
+  }
+}
